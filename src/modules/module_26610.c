@@ -168,7 +168,7 @@ int module_hash_decode (MAYBE_UNUSED const hashconfig_t *hashconfig, MAYBE_UNUSE
 
   // iter
 
-  salt->salt_iter = 10000 - 1;
+  salt->salt_iter = 600000 - 1;
 
   // salt
 
